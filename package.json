@@ -15,7 +15,7 @@
   "scripts": {
     "test": "make test"
   },
-  "author": "",
+  "author": "Raine Virta <raine.virta@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "livescript": "^1.4.0",
