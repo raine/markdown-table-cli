@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "description": "Format JSON as Markdown table on the command-line",
   "repository": "raine/markdown-table-cli",
+  "keywords": [
+    "markdown",
+    "json",
+    "table",
+    "cli"
+  ],
   "bin": {
     "md-table": "./bin/md-table"
   },
