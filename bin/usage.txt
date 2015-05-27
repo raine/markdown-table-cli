@@ -1,0 +1,15 @@
+Usage: md-table [options]
+
+Reads a list of objects in JSON from stdin and formats a markdown table in
+such way that first object's keys become the table headers
+
+Options:
+  -c  capitalize each word in headers
+  -u  make headers upper case
+  -a  align columns according to the character (l, c, r) given for that
+      respective column, in order from left to right
+  -h  displays help
+
+Examples:
+  cat data.json | md-table
+  cat data.json | md-table -a lcr

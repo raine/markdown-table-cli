@@ -1,0 +1,24 @@
+{
+  "name": "markdown-table-cli",
+  "version": "1.0.0",
+  "description": "Format JSON as Markdown table on the command-line",
+  "repository": "raine/markdown-table-cli",
+  "bin": {
+    "md-table": "./bin/md-table"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "livescript": "^1.4.0",
+    "mocha": "^2.2.5"
+  },
+  "dependencies": {
+    "JSONStream": "^1.0.4",
+    "markdown-table": "^0.4.0",
+    "minimist": "^1.1.1",
+    "through2-map": "^1.4.0"
+  }
+}
